@@ -14,7 +14,6 @@ def piedra_papel_tijera():
     print("--- PIEDRA, PAPEL O TIJERA ---")
     usuario = input("Elige (piedra, papel, tijera): ").lower() # Aca solo estamos diciendo que escoja una opcion al usuario
     pc = random.choice(opciones) # Aca es para que la pc(la computadora) tenga repuestas aleatorias
-    print("\n")
     if usuario not in opciones: # Le estamos diciendo que condiciones debe tener, en este caso es (si usuario no escoge una opcion le debe imprimir "opcion no valida")
         print("Opción no válida.")
         return # Este es para que se repita
