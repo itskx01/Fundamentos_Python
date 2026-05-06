@@ -1,5 +1,5 @@
 # Actividad 1 Tarjeta de identificacion digital
-# variables definidas
+# PARTE 1: Nombrar variables y agregar su informacion 
 nombre = "ronalt stevent"
 apellido = "soto alarcon"
 programa = "ADSO"
@@ -12,7 +12,7 @@ telefono = "3214830615"
 cedula = 123456789
 ficha = 3321349
 
-
+# PARTE 2: Imprimir las variables con el tipo de dato que es
 # impresion de la variables
 print(type(nombre), nombre)
 print(type(apellido), apellido)

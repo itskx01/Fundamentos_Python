@@ -1,14 +1,17 @@
-# Declarar variables
+# PARTE 1:Nombrar variables y agregar su informacion 
 print("\n")
 print("="*8,"Calculadora de IMC",8*"=")
 peso = float(input("Ingresa tu peso en kg: ")) #Pide los datos a usar
 altura = float(input("Ingresa tu altura (Eje. 1.75): ")) #Pide los datos a usar
 peso_corporal = peso / (altura **2) #Esta haciendo la operacion 
 
+"""
+PARTE 2: Imprimiendo las variables 
+"""
 print("\n")
 print("---Resultado del Analisis---")
 
-#Esta poniendo la condicion de los pesos (bajo peso,normal,sobre peso y obesidad)    
+#PARET 3: Esta poniendo la condicion de los pesos (bajo peso,normal,sobre peso y obesidad)    
 if (altura <= 0 or peso <=0 ):
     print("="*2,"Ingrese un valor en positivo",2*"=")
 elif (peso_corporal  <= 18.5):
