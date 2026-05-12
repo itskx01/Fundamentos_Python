@@ -15,3 +15,4 @@ print(aprendices_ADSO [0])
 
 #  Se pueden hacer listas mixtas(de varios tipos de datos)
 
+
