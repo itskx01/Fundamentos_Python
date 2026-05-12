@@ -1,7 +1,7 @@
 # Operadores aritmeticos
 
-a = 5
-b = 10
+a = 5 # Lo que dice aca es que la "a" es igual a "5" o sea que "a" vale 5
+b = 10 #Lo mismo con la "B", vale 10, eso es una variable
 
 # suma 
 suma = a + b  
