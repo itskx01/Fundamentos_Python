@@ -1,4 +1,7 @@
 # 2. Función para calcular el promedio de notas
+from tkinter import N
+
+
 def calcular_promedio(lista_notas):
     """Recibe una lista de 4 floats y retorna el promedio."""
     if not lista_notas:
@@ -42,7 +45,7 @@ grupo[3456789] = {
     "notas": [4.0, 4.1, 3.9, 4.3],
     "ciudad": "Villa de Leyva"
 }
-
+      
 # -> Actualizar la ciudad de uno de los aprendices existentes
 grupo[2567489]["ciudad"] = "Bogotá"
 
